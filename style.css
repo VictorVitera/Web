@@ -1,0 +1,113 @@
+h1{
+text-align: center;
+color: green;
+font-size: 50px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: bisque;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.navbar a{
+    color: green;
+    text-decoration: none;
+    padding:10px;
+    display:block;
+    text-align:center;
+}
+.navbar a:hover{
+    background-color: antiquewhite;
+}
+.navbar li{
+   float:left;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+
+}
+
+
+#a{
+    position:absolute;
+    top: 38%;
+    left: 20%;
+    font-size: 20px;
+}
+#b{
+    position: absolute;
+    left: 20%;
+    font-size:20px ;
+}
+#c{
+    position:absolute;
+    left: 20%;
+    font-size: 20px;
+    top: 48%;
+}
+#d{
+    position: absolute;
+    font-size: 16px;
+    right: 4%;
+    top: 37%;
+}
+
+#m{
+    position:absolute;
+    top: 36%;
+    left: 43%;
+}
+
+abel{
+font-size: 30px;;
+}
+
+::after,
+::before{
+padding: 0;
+margin: 0;
+box-sizing:border-box ;
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;  
+ width: 100%;
+ height: 50vh; 
+}
+
+.form_box{
+    display: flex;
+    flex-direction: column;
+    background-color:blanchedalmond;
+    border-radius: 8px;
+    width: 700px;
+}
+
+.form_box form{
+   display: flex;
+   align-items: start;
+   flex-wrap:wrap;
+   padding: 32px; 
+}
+.form_box input,
+.form_box textarea{
+    width: calc(50% - 8px);
+    height: 48px;
+    border-radius: 8px;
+    border: thin solid;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.form_box button{
+    display: block;
+    outline: none;
+    width: 100px;
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
+}
